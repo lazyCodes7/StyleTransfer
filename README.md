@@ -27,11 +27,18 @@ We finally combine this loss to have a joint loss function which we will train o
 
 ## Examples
 ### Style image
-<img src = "examples/hockney.jpg">
+<img src = "examples/delaunay.jpg">
 
 ### Content image
-<img src = "examples/space_needle.jpg">
+<img src = "examples/octopus.jpg">
 
 ### Result
-<img src = "gif/movie-2.gif">
+<img src = "gif/octopus.gif">
 
+Try out more from examples section!
+
+## View Paper
+[A Neural Algorithm of Artistic Style by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge](https://arxiv.org/abs/1508.06576)
+
+## View Notebook
+View the notebook on [Kaggle](https://www.kaggle.com/rishabmudliar/style-transfer)
