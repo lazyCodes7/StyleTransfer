@@ -39,3 +39,6 @@ Try out more from examples section!
 
 ## View Paper
 [A Neural Algorithm of Artistic Style by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge](https://arxiv.org/abs/1508.06576)
+
+## View Notebook
+View the notebook on [Kaggle](https://www.kaggle.com/rishabmudliar/style-transfer)
