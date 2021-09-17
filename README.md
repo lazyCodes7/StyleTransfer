@@ -27,11 +27,11 @@ We finally combine this loss to have a joint loss function which we will train o
 
 ## Examples
 ### Style image
-<img src = "examples/hockney.jpg">
+<img src = "examples/delaunay.jpg">
 
 ### Content image
-<img src = "examples/space_needle.jpg">
+<img src = "examples/octopus.jpg">
 
 ### Result
-<img src = "gif/movie-2.gif">
+<img src = "gif/octopus.gif">
 
