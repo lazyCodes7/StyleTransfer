@@ -26,6 +26,12 @@ Note: Constant 4*n^2*m^2 represent depth(channel) and height and width of the fi
 We finally combine this loss to have a joint loss function which we will train our target image on. Alpha and beta image are hyperparameter which we can set to how much stylized the image should appear. A lower value of alpha/beta of order 10^-1 would mean an image that has not been stylized much.
 
 ## Examples
-Some examples of stylized image \
+### Style image
+<img src = "examples/hockney.jpg">
+
+### Content image
+<img src = "examples/space_needle.jpg">
+
+### Result
 <img src = "gif/movie-2.gif">
 
