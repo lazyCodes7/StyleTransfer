@@ -1,4 +1,4 @@
-## StyleTransfer
+# StyleTransfer
 Style transfer is a technique where we use two images 
 - Content image which is the main content of the image
 - Style image which could be termed as the layout of the image, something like a color scale in simplest of the terms
@@ -21,4 +21,6 @@ For training the target image such that it matches the content we first extract 
 The training process is really different here. We used something called as gram matrix which helps us in getting the style representation of an image. It is nothing but a correlation between different filters in a layer L. So what we do is calculate the gram matrix for both the target(G) and the style image(A) to see how far it is from being similar to the style! \
 Note: Constant 4*n^2*m^2 represent depth(channel) and height and width of the filter in layer l and the loss function sums up the value E in the image for all the layers multiplied by a weight factor which represents contribution of each layer
 
-
+## Combined loss
+<img src="gif/total_loss.png">
+We finally combine this loss to have a joint loss function which we will train our target image on. Alpha and beta image are hyperparameter which we can set to how much stylized the image should appear. A lower value of alpha/beta of order 10^-1 would mean an image that has not been stylized much.
