@@ -35,3 +35,7 @@ We finally combine this loss to have a joint loss function which we will train o
 ### Result
 <img src = "gif/octopus.gif">
 
+Try out more from examples section!
+
+## View Paper
+[A Neural Algorithm of Artistic Style by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge](https://arxiv.org/abs/1508.06576)
