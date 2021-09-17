@@ -16,4 +16,9 @@ The target image requires both the content of the image and the style of the sty
 <img src="gif/content_loss.png">
 For training the target image such that it matches the content we first extract the features from the conv layers and then we use a loss function to improve the pixel values for the target image. In the image P and F represent the original image and the target image respectively and we compute this loss for the layer l
 
+### Training the target image to match the style
+<img src="gif/gram.png"> <img src="gif/StyleLoss.png"> \
+The training process is really different here. We used something called as gram matrix which helps us in getting the style representation of an image. It is nothing but a correlation between different filters in a layer L. So what we do is calculate the gram matrix for both the target(G) and the style image(A) to see how far it is from being similar to the style! \
+Note: Constant 4*n^2*m^2 represent depth(channel) and height and width of the filter in layer l and the loss function sums up the value E in the image for all the layers multiplied by a weight factor which represents contribution of each layer
+
 
